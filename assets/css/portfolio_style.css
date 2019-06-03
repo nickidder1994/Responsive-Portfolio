@@ -1,12 +1,11 @@
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color:  #ffffff;
-    display: inline;
-    margin-left: 250px;
-    font-size: 50px;
-    border-bottom: solid 2px #cccccc;
-    background-size: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #4aaaa5;
+  display: inline;
+  font-size: 50px;
+  border-bottom: solid 2px #cccccc;
+  background-size: 90px;
     } 
     header {
       border-bottom: outset;
@@ -30,7 +29,32 @@ h1 {
         margin: 0 auto;
         border:solid 2px #dddddd;
         width: 960px;
-        height: 500px;
+        height: 550px;
         clear: left;
         background-color: #ffffff;
+      }
+      img {
+        width: 100px;
+        height: 150px;
+        margin: 30px;
+        display: inline;
+        float: right;
+    }
+    p {
+        background-color: #4aaaa5;
+        width: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ffffff;
+        margin: 30px;
+        font-size: 20px;
+        float: left
+    }
+    .footer {
+      height: 50px;
+      background-color: #666666;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      border-top: solid 8px #4aaaa5
       }

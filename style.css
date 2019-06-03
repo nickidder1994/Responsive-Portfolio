@@ -7,7 +7,14 @@ h1 {
   font-size: 50px;
   border-bottom: solid 2px #cccccc;
   background-size: 90px;
-  } 
+  }
+  @media only screen and (max-width:640px){
+    h1{
+      font-size: 10px;
+      background-size: 30px;
+
+    }
+  }
   header {
     border-bottom: outset;
     background-color: #ffffff;
@@ -42,11 +49,13 @@ ul {
 }
 p {
   float: left;
-  width: 600px
+  width: 600px;
+  font-size:  15px;
 }
-body {
-  background-image: url("./assets/images/floor-tile.png")
-}
+@media only screen and (max-width: 600px(max-width:640px){
+  p{
+    font-size: 5px;
+  }
 .footer {
   height: 50px;
   background-color: #666666;
